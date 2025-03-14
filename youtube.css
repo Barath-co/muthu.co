@@ -1,0 +1,144 @@
+.mainpage{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px
+    
+    
+    
+
+}
+.video-muthu{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction:column;
+    width: 430px;
+    position: static;
+    cursor: pointer;
+    
+    padding-right: 0%;
+    
+    
+}
+.img-muthu{
+    max-width: 100%;
+    height: 250px;
+}
+.logo-muthu{
+    width:50px;
+    border-radius: 40px;
+    vertical-align: top;
+}
+.title2-muthu{
+    display:flex;
+    align-items: center;
+}
+.title3-muthu{
+    margin-left: 30px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sidebar-muthu{
+    position: fixed;
+    top: 0;
+    left:0;
+    bottom: 0;
+    background-color: white;
+    width:100px;
+}
+.header{
+    position: fixed;
+    top: 0;
+    bottom: ;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-start;
+    min-height: 100px;
+    align-items: center;
+    background-color: black;
+    width:100%;
+    margin-bottom:0;
+    cursor: pointer;
+}
+.image-3dash{
+    width:65px;
+    height: 40px;
+}
+.search{
+    width: 40px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 20px;
+    margin-top: 3px;
+
+}
+.mic{
+    width:30px;
+    height: 30px;
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.bell{
+    width:30px;
+    height: 30px;
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-top: 3px;
+
+}
+
+.icon{
+    width:30px;
+    height: 30px;
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.searchbar{
+    width:400px;
+    height:30px;
+    margin-top: 3px;
+    margin-left: 200px;
+    border-radius: 5px;
+}
+.sidebar{
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top:0;
+    color: white;
+    background-color: black;
+    width: 150px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: flex-start;
+    padding-left: 10px;
+    font-size: x-large;
+}
+
+
+.me{
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.me:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+    
+
+}
+.left {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    margin-left: auto; 
+    margin-right: 20px;
+
+}
